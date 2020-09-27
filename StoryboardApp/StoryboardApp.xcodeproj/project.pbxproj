@@ -13,6 +13,8 @@
 		1BF9A83E2520C91900BD4EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A83C2520C91900BD4EAB /* Main.storyboard */; };
 		1BF9A8402520C91E00BD4EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A83F2520C91E00BD4EAB /* Assets.xcassets */; };
 		1BF9A8432520C91E00BD4EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A8412520C91E00BD4EAB /* LaunchScreen.storyboard */; };
+		1BF9A86B2520CC2700BD4EAB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9A86A2520CC2700BD4EAB /* UserModel.swift */; };
+		1BF9A86E2520CFB200BD4EAB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9A86C2520CFB200BD4EAB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1BF9A83F2520C91E00BD4EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BF9A8422520C91E00BD4EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF9A8442520C91E00BD4EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF9A86A2520CC2700BD4EAB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1BF9A86C2520CFB200BD4EAB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1BF9A83F2520C91E00BD4EAB /* Assets.xcassets */,
 				1BF9A8412520C91E00BD4EAB /* LaunchScreen.storyboard */,
 				1BF9A8442520C91E00BD4EAB /* Info.plist */,
+				1BF9A86A2520CC2700BD4EAB /* UserModel.swift */,
+				1BF9A86C2520CFB200BD4EAB /* TableViewCell.swift */,
 			);
 			path = StoryboardApp;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF9A86E2520CFB200BD4EAB /* TableViewCell.swift in Sources */,
 				1BF9A83B2520C91900BD4EAB /* ViewController.swift in Sources */,
 				1BF9A8372520C91900BD4EAB /* AppDelegate.swift in Sources */,
+				1BF9A86B2520CC2700BD4EAB /* UserModel.swift in Sources */,
 				1BF9A8392520C91900BD4EAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

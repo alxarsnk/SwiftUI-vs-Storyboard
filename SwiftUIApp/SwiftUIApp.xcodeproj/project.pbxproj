@@ -13,6 +13,7 @@
 		1BF9A85D2520C97800BD4EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A85C2520C97800BD4EAB /* Assets.xcassets */; };
 		1BF9A8602520C97800BD4EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A85F2520C97800BD4EAB /* Preview Assets.xcassets */; };
 		1BF9A8632520C97800BD4EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A8612520C97800BD4EAB /* LaunchScreen.storyboard */; };
+		1BF9A8712520DFAE00BD4EAB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9A8702520DFAE00BD4EAB /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1BF9A85F2520C97800BD4EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BF9A8622520C97800BD4EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF9A8642520C97800BD4EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF9A8702520DFAE00BD4EAB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1BF9A8612520C97800BD4EAB /* LaunchScreen.storyboard */,
 				1BF9A8642520C97800BD4EAB /* Info.plist */,
 				1BF9A85E2520C97800BD4EAB /* Preview Content */,
+				1BF9A8702520DFAE00BD4EAB /* UserModel.swift */,
 			);
 			path = SwiftUIApp;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF9A8572520C97600BD4EAB /* AppDelegate.swift in Sources */,
+				1BF9A8712520DFAE00BD4EAB /* UserModel.swift in Sources */,
 				1BF9A8592520C97600BD4EAB /* SceneDelegate.swift in Sources */,
 				1BF9A85B2520C97600BD4EAB /* ContentView.swift in Sources */,
 			);
